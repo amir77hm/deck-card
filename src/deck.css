@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: linear-gradient(to right top, #fefee3, #ffc9b9);
+  background-repeat: no-repeat;
+  height: 100vh;
+  padding-top: 3rem;
+}
+
+.deck {
+  text-align: center;
+}
+
+button {
+  padding: 0.5rem 1.6rem;
+  font-size: 1.1rem;
+  background-color: #123451;
+  color: aliceblue;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  transition: all 0.2s;
+  border: none;
+  display: block;
+  margin: 0 auto;
+}
+
+button:hover {
+  background-color: #12345125;
+  color: #000;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  position: absolute;
+  top: 4rem;
+}
